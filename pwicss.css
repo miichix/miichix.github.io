@@ -11,21 +11,21 @@ body {
 /* kolko krzyzyk */
 
 .kik_button {
-	background-color: #4CAF50; /* Green */
-	border: 8px solid black;
-	color: white;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 100px;
-	padding: 0px;
-
-	cursor: pointer;
-	position: relative;
-	vertical-align:top;
-	
-	width: 200px;
-	height: 200px;
+  padding: 10px;
+  background: #f1f1f1;
+  background-color: #4CAF50; /* Green */
+  border: 8px solid black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100px;
+  padding: 0px;
+  cursor: pointer;
+  position: relative;
+  vertical-align:top;
+  width: 200px;
+  height: 200px;
 }
 
 .kik {
