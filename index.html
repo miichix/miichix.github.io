@@ -27,7 +27,28 @@
 
 <div class="row">
   <div class="leftcolumn">
+  
+  <!-- KÓŁKO I KRZYŻYK -->
+  
+	<div class="card">
+      <h2>KÓŁKO I KRZYŻYK</h2>
+      <h5>Zagraj w kółko i krzyżyk, 21 Marca, 2021</h5>
+	  
+      <div class="kik">
+		<button id="b00" type="button" class="kik_button" onclick="play(this)"></button><button id="b01" type="button" class="kik_button" onclick="play(this)"></button><button id="b02" type="button" class="kik_button" onclick="play(this)"></button> </br>
+		<button id="b10" type="button" class="kik_button" onclick="play(this)"></button><button id="b11" type="button" class="kik_button" onclick="play(this)"></button><button id="b12" type="button" class="kik_button" onclick="play(this)"></button> </br>
+		<button id="b20" type="button" class="kik_button" onclick="play(this)"></button><button id="b21" type="button" class="kik_button" onclick="play(this)"></button><button id="b22" type="button" class="kik_button" onclick="play(this)"></button>
+
+	  </div>
+	  <input type="radio" id="czyKomputer">
+	  <label for="czyKomputer"><= Zaznacz jeśli chcesz grać z komputerem</label> </br>
+	  <button id="reset" type="button" onclick="reset()">Resetuj</button>
+      
+    </div>
     <div class="card">
+	
+	<!-- ARTYKUŁ TESTOWY -->
+	
       <h2>NAGŁÓWEK</h2>
       <h5>Opis, 15 Marca, 2021</h5>
       <div class="image">
@@ -37,6 +58,9 @@
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     </div>
     <div class="card">
+	
+	<!-- ARTYKUŁ O COVID-19 -->
+	
       <h2>Artykuł o COVID-19</h2>
       <h5>Opis, 14 Marca, 2021</h5>
       <div class="image">
@@ -48,7 +72,7 @@
   </div>
   <div class="rightcolumn">
     <div class="card">
-      <h2>About Me</h2>
+      <h2>Coś o mnie</h2>
       <div class="image">
 		<img src="haha_yes.jpg" alt="Haha yes" style="max-width:100%;max-height:100%;">
 	  </div>
@@ -73,6 +97,6 @@
 <div class="footer">
   <h2>Created by Michał Tański</h2>
 </div>
-
+<script src="scripts/kik.js"></script>
 </body>
 </html>
