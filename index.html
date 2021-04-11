@@ -453,7 +453,7 @@
 
                <div class="col g-2">
                   <p class="post-meta">
-                     <time pubdate="" class="post-date" datetime="2021-03-29">Mar 29, 2021</time>
+                     <time class="post-date" datetime="2021-03-29">Mar 29, 2021</time>
                      <span class="dauthor">By Michał Tański</span>
                   </p>
                </div>
@@ -463,9 +463,9 @@
             <div class="row">
 
                <div class="col g-9 offset-1 post-content">
-                  <button class="kik_button" type="button" id="b00" onclick="play(this)"></button><button class="kik_button" type="button" id="b01" onclick="play(this)"></button><button class="kik_button" type="button" id="b02" onclick="play(this)"></button> </br>
-				  <button class="kik_button" type="button" id="b10" onclick="play(this)"></button><button class="kik_button" type="button" id="b11" onclick="play(this)"></button><button class="kik_button" type="button" id="b12" onclick="play(this)"></button> </br>
-				  <button class="kik_button" type="button" id="b20" onclick="play(this)"></button><button class="kik_button" type="button" id="b21" onclick="play(this)"></button><button class="kik_button" type="button" id="b22" onclick="play(this)"></button></br>
+                  <button class="kik_button" type="button" id="b00" onclick="play(this)"></button><button class="kik_button" type="button" id="b01" onclick="play(this)"></button><button class="kik_button" type="button" id="b02" onclick="play(this)"></button> <br/>
+				  <button class="kik_button" type="button" id="b10" onclick="play(this)"></button><button class="kik_button" type="button" id="b11" onclick="play(this)"></button><button class="kik_button" type="button" id="b12" onclick="play(this)"></button> <br/>
+				  <button class="kik_button" type="button" id="b20" onclick="play(this)"></button><button class="kik_button" type="button" id="b21" onclick="play(this)"></button><button class="kik_button" type="button" id="b22" onclick="play(this)"></button><br/>
 				  
 				  <button type="button" onclick="reset()">Reset</button>
 				  <input type="radio" name="czyKomputer" id="czyKomputer">
@@ -495,7 +495,7 @@
 
                <div class="col g-2">
                   <p class="post-meta">
-                     <time pubdate="" class="post-date" datetime="2013-08-09">Mar 22, 2021</time>
+                     <time class="post-date" datetime="2013-08-09">Mar 22, 2021</time>
                      <span class="dauthor">By Michał Tański</span>
                   </p>
                </div>
@@ -530,7 +530,7 @@
 
                <div class="col g-2">
                   <p class="post-meta">
-                     <time pubdate="" class="post-date" datetime="2013-08-07">Mar 15, 2021</time>
+                     <time class="post-date" datetime="2013-08-07">Mar 15, 2021</time>
                      <span class="dauthor">By Michał Tański</span>
                   </p>
                </div>
@@ -629,7 +629,7 @@
 
             <img src="images/team/team-img-01.jpg" alt=""/>
 
-            <div class"member-name">
+            <div class="member-name">
                <h5>Michał Tański</h5>
                <span>Autor strony</span>
             </div>
@@ -656,6 +656,7 @@
    <!-- Map Section
    ================================================== -->
    <section id="map">
+   <h2> Map </h2>
 
       <p class="map-error">Something went wrong... Unable to load map... Please try to enable javascript</p>
 
@@ -677,7 +678,7 @@
          <div class="col g-7">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
+            <form name="contactForm" id="contactForm" method="post" action="/inc/sendEmail.php">
 					<fieldset>
 
                   <div>
@@ -780,12 +781,12 @@
    ================================================== -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/jquery-migrate-1.2.1.min.js"></script>
 
    <script src="js/scrollspy.js"></script>
    <script src="js/jquery.flexslider.js"></script>
    <script src="js/jquery.reveal.js"></script>
-   <script src="https://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+   <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
    <script src="js/gmaps.js"></script>
    <script src="js/init.js"></script>
    <script src="js/smoothscrolling.js"></script>
